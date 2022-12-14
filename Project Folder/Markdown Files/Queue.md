@@ -160,17 +160,17 @@ Everyone else is pulled out:
 
 What will be output in the following example?
 
-Numbers = Queue([3, 2, 1, 6, 5])
-print(Numbers.size())
-Numbers.add(3)
-print(Numbers.size())
-Output = Numbers.remove()
+Numbers = Queue([3, 2, 1, 6, 5])\
+print(Numbers.size())\
+Numbers.add(3)\
+print(Numbers.size())\
+Output = Numbers.remove()\
 print(Output)
 
 
 
 ### Python Example Solution
 
-5
-6
+5\
+6\
 3

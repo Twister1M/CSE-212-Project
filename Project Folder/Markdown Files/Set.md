@@ -35,25 +35,25 @@ Since it doesn't store duplicates, the set would be of minimum possible size at 
 In python, to create a set, the function set() is used, where the data is placed inside the parentheses.
 Since sets are a built-in data storage type, sets have many methods (functions that apply to them).  Some of the most important are as follows:
 
-set(data): creates a set
+set(data): creates a set\
 O(1)
 
-set.add(item): adds an item to the set
+set.add(item): adds an item to the set\
 O(1)
 
-set.remove(item): removes an item from the set
+set.remove(item): removes an item from the set\
 O(1)
 
-set1.union(set2): combines two sets
+set1.union(set2): combines two sets\
 O(1)
 
-set1.difference(set2): returns a set containing the items that are in set 1 but not set 2
+set1.difference(set2): returns a set containing the items that are in set 1 but not in set 2\
 O(n)
 
-set.clear(): empties a set
+set.clear(): empties a set\
 O(1)
 
-len(set): length of a set
+len(set): length of a set\
 O(1)
 
 checking for an item in a set:

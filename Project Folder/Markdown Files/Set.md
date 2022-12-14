@@ -56,7 +56,7 @@ O(1)
 len(set): length of a set\
 O(1)
 
-checking for an item in a set:\
+checking for an item in a set:
 
     if value in set:
         return True

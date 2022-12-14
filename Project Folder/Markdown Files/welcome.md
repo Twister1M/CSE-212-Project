@@ -1,4 +1,4 @@
-# CSE 212 Project\
+# CSE 212 Project
 Jacob Running\
 CSE 212 Section 05\
 run20002@byui.edu

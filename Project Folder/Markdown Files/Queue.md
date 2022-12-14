@@ -60,13 +60,13 @@ class Queue():
         length = len(list)
         return length
 
-.add(): Adds item to queue
+.add(): Adds item to queue\
 O(1)
 
-.remove(): Removes item from queue
+.remove(): Removes item from queue\
 O(n) where n is the number of items in the queue
 
-.size(): Returns the size of the queue
+.size(): Returns the size of the queue\
 O(1)
 
 

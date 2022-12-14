@@ -11,10 +11,10 @@ Trees normally have a node that is considered the 'root' node.  This is where th
 ### Types of Trees
 
 Binary Trees are trees that can only have two children.  They are the typical fork-shaped trees:\
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;|\
-|&nbsp;&nbsp;&nbsp;&nbsp;/ \&nbsp;&nbsp;|\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O &nbsp;&nbsp;&nbsp;|\
+|&nbsp;&nbsp;&nbsp;&nbsp;/ \ &nbsp;&nbsp;|\
 |&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;O |\
-|&nbsp;&nbsp;/ \&nbsp;&nbsp;&nbsp;&nbsp;|\
+|&nbsp;&nbsp;/ \ &nbsp;&nbsp;&nbsp;&nbsp;|\
 | O&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;|
 
 Binary Search Trees use a unique method of organization.  When adding a datapoint to the tree, the root node is compared to the datapoint.  If the new datapoint value is lower than the root value, it is placed as a child to the left.

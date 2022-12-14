@@ -74,6 +74,7 @@ In the case of a binary search tree or balanced binary search tree, it would tak
 
 Since there is no built-in tree data structure in python, to create a tree one needs to create a class.  There are multiple methods to implement this system.  One if which is as follows:
 
+```
 class BSTNode:
     def __init__(self, val=None):
         self.left = None
@@ -171,37 +172,38 @@ class BSTNode:
         if self.val is not None:
             vals.append(self.val)
         return vals
+```
 
 Important note:  You cannot use .delete() on the root of the tree.
 
 This is a lot to look through, but the idea comes down to the following functions:
 (For big O notation, 'n' is the size of the tree.)
 
-BSTNode(): Create an empty Binary Search Tree, or a tree with one value inside the parentheses.
+BSTNode(): Create an empty Binary Search Tree, or a tree with one value inside the parentheses.\
 O(1)
 
-.insert(): Insert a new value into the tree.
+.insert(): Insert a new value into the tree.\
 O(logn)
 
-.get_min(): Finds the lowest value in the tree.
+.get_min(): Finds the lowest value in the tree.\
 O(logn)
 
-.get_max(): Find the highest value in the tree.
+.get_max(): Find the highest value in the tree.\
 O(logn)
 
-.delete(): Deletes the value placed in the parentheses.
+.delete(): Deletes the value placed in the parentheses.\
 O(logn)
 
-.exists(): Finds if the value placed in the parentheses exists.
+.exists(): Finds if the value placed in the parentheses exists.\
 O(logn)
 
-.inorder(): Returns list placed in parentheses with all tree's values in value-order.
+.inorder(): Returns list placed in parentheses with all tree's values in value-order.\
 O(nlog(n))
 
-.preorder(): Returns list placed in parentheses with tree's preorder notation.
+.preorder(): Returns list placed in parentheses with tree's preorder notation.\
 O(n)
 
-.postorder(): Returns list placed in parentheses with tree's postorder notation.
+.postorder(): Returns list placed in parentheses with tree's postorder notation.\
 O(nlog(n))
 
 ### Python Examples

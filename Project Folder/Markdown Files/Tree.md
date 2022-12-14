@@ -22,11 +22,13 @@ Binary Trees are trees that can only have two children.  They are the typical fo
 Binary Search Trees use a unique method of organization.  When adding a datapoint to the tree, the root node is compared to the datapoint.  If the new datapoint value is lower than the root value, it is placed as a child to the left.
 If it is greater than the root value, it is placed as a child to the right.  If there is already a child to the side it is placed on, it is compared to that child and the loop repeats until it is placed in a location with no child.
 
+<pre>
 |     5     |
 |    / \    |
 |   3   6   |
 |  / \   \  |
 | 2   4   7 |
+</pre>
 
 Balanced Binary Search Trees are a special version of Binary Search Trees that automatically sort the data in the tree so that the difference between depth/height of the tree's branches is at a minimum.
 A binary search tree is considered 'balanced' if it has a difference in depth/height of less than two.  Balanced binary search trees have an efficiency of O(logn) because, when searching for a value, you only need to look through
@@ -59,6 +61,7 @@ Pre-order and Post-order - Methods of organizing the data of a tree into a list;
 Trees have many uses in data storage.  As previously mentioned, a good example of trees as data storage is file storage.  On your computer storage, each file is considered a node.  Folders are nodes that have children.
 Thus, a folder could look like this: (F = folder, D = document)
 
+<pre>
 |        F         |
 |      /   \       |
 |    F       F     |
@@ -66,6 +69,7 @@ Thus, a folder could look like this: (F = folder, D = document)
 |    D     D   F   |
 |              |   |
 |              D   |
+</pre>
 
 Binary Search Trees are a good way to organize data in large quantities that allows them to be accessed in a shorter amount of time than would be available with a list.  Think of a list of 20 numbers in numerical order.
 If you needed to check if a certain number was in a tree, you would need to start from the beginning and go until you either found a number that is above the value (not in the list), or find the number in the list.

@@ -62,13 +62,13 @@ Trees have many uses in data storage.  As previously mentioned, a good example o
 Thus, a folder could look like this: (F = folder, D = document)
 
 <pre>
-|        F         |
-|      /   \       |
-|    F       F     |
-|    |      / \    |
-|    D     D   F   |
-|              |   |
-|              D   |
+|       F         |
+|     /   \       |
+|   F       F     |
+|   |      / \    |
+|   D     D   F   |
+|             |   |
+|             D   |
 </pre>
 
 Binary Search Trees are a good way to organize data in large quantities that allows them to be accessed in a shorter amount of time than would be available with a list.  Think of a list of 20 numbers in numerical order.

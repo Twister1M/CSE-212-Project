@@ -132,29 +132,29 @@ Clear a set for later use
 
 1. What will the variable 'output' be assigned?
 
-    Set1 = set({1,2,3})
-    Set2 = set({3,1,1,2})
+    Set1 = set({1,2,3})\
+    Set2 = set({3,1,1,2})\
     output = Set1.union(Set2)
 
 
 
 2. What is found in set1 that isn't in set2?
 
-    Set1 = set({3, "apple", 7.23, 3})
-    Set2 = set({4, "apple", 7.12, "apple"})
+    Set1 = set({3, "apple", 7.23, 3})\
+    Set2 = set({4, "apple", 7.12, "apple"})\
     difference = Set1.difference(Set2)
 
 
 
 3. What will be the length of the set?
 
-    Set = set()
-    Set.add(3)
-    Set.add(3)
-    Set.add(7)
-    Set.add(6)
-    Set.add(7)
-    Set.add(3)
+    Set = set()\
+    Set.add(3)\
+    Set.add(3)\
+    Set.add(7)\
+    Set.add(6)\
+    Set.add(7)\
+    Set.add(3)\
     Set.add(4)
 
 ### Python Example Solutions

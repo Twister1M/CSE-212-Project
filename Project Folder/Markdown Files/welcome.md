@@ -9,7 +9,7 @@ Hello,
 This project is meant to teach the basics of three types of datastructures for use in the python coding language.
 The data structure types and their respective files are as follows:
 
-[Queues]<https://github.com/Twister1M/CSE-212-Project/blob/main/Project%20Folder/Markdown%20Files/Queue.md>
+[Queues](https://github.com/Twister1M/CSE-212-Project/blob/main/Project%20Folder/Markdown%20Files/Queue.md)
 [Sets]<https://github.com/Twister1M/CSE-212-Project/blob/main/Project%20Folder/Markdown%20Files/Set.md>
 [Trees]<https://github.com/Twister1M/CSE-212-Project/blob/main/Project%20Folder/Markdown%20Files/Tree.md>
 
